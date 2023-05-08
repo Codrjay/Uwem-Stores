@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Login.css">
+   
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>uwem stores</a>
+
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Features">Features</a>
+        <a href="#Products">Products</a>
+        <a href="#Categories">Categories</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+</div>
+
+<form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="mentos.png">
+        <div class="content">
+         <h3>Mentos fruit</h3>
+         <span class="price">₦299.99/-</span>
+         <span class="quantity">qty : 1</span>
+         </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="Apple.png">
+        <div class="content">
+         <h3>Apple</h3>
+         <span class="price">₦499.99/-</span>
+         <span class="quantity">qty : 2</span>
+         </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="Domaine Serene wine.png">
+        <div class="content">
+         <h3>Domaine Serene wine</h3>
+         <span class="price">₦9999.99/-</span>
+         <span class="quantity">qty : 1</span>
+         </div>
+    </div>
+    <div class="total"> total : ₦11,299.96/- </div>
+    <a href="#" class="btn">Order</a>
+</div>
+
+  <form action="" class="login-form">
+    <h3>login</h3>
+    <input type="email" placeholder="enter your email" class="box">
+    <input type="password" placeholder="enter your password" class="box">
+    <p>Don't have an account<a href="#"> Create account</a></p>
+    <input type="submit"  value="login" class="btn">
+  </form>
+</header>
+
+
+
+
+
+<section class="Home" id="Home">
+<div class="content">
+    <h3>New and <span>Awesome</span> products for you</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eligendi optio dicta dolore molestias</p>
+    <a href="#" class="btn">shop</a>
+</div> 
+</section>
+
+
+
+<section class="Features" id="Features">
+
+       <h1 class="heading"> our <span> features </span></h1>
+
+       <div class="box-container">
+          
+          <div class="box">
+            <img src="organic-transformed.jpeg" alt="organic">
+            <h3>Fresh and organic</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur</p>
+            <a href="#" class="btn">read more...</a>
+          </div>
+
+          <div class="box">
+            <img src="discount.jpg" alt="discount">
+            <h3>Weekly discount</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur</p>
+            <a href="#" class="btn">read more...</a>
+          </div>
+
+          <div class="box">
+            <img src="delivery.jpg" alt="delivery">
+            <h3>free and fast delivery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur</p>
+            <a href="#" class="btn">read more...</a>
+          </div>
+        </div>   
+</section>
+
+
+  
+ 
+<section class="Products" id="Products">
+    <h1 class="heading">our<span>products</span></h1>
+
+    <div class="swiper Product-slider">
+
+        <div class="swiper-wrapper">
+
+           <div class="swiper-slide box">
+             <img src="milk-bread-white-removebg-preview.png" alt="Bread">
+             <h3>Fresh Bread</h3>
+             <div class="price">>₦799.99/-999.99/-</div>
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+             <a href="#" class="btn">add to cart</a>
+           </div>
+
+           <div class="swiper-slide box">
+            <img src="tomatoes__1_-removebg-preview.png" alt="Tomatoes">
+            <h3>Fresh tomatoes</h3>
+            <div class="price">₦799.99/-999.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="wine-bottle-removebg-preview.png" alt="wine">
+            <h3>Quality Wine</h3>
+            <div class="price">>₦9999.99/-1299.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="brown-eggs-removebg-preview.png" alt="eggs">
+            <h3>Fresh Eggs</h3>
+            <div class="price">>₦799.99/-999.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+
+    <div class="swiper Product-slider">
+
+        <div class="swiper-wrapper">
+
+           <div class="swiper-slide box">
+             <img src="Gum-removebg-preview.png" alt="gum">
+             <h3>Chewing gum</h3>
+             <div class="price">>₦799.99/-999.99/-</div>
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+             <a href="#" class="btn">add to cart</a>
+           </div>
+
+           <div class="swiper-slide box">
+            <img src="top-view-notebooks-table-removebg-preview.png" alt="notes">
+            <h3>Notebook</h3>
+            <div class="price">₦799.99/-999.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="graphite-drawing-pencils-bright-lined-inside-black-basket-white-desk-removebg-preview.png" alt="pencils">
+            <h3>pencils</h3>
+            <div class="price">>₦9999.99/-1299.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="rainbow-pencils-set-white-background-removebg-preview.png" alt="color">
+            <h3>Color pencils</h3>
+            <div class="price">>₦9999.99/-1299.99/-</div>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+         
+    </div>
+
+</section>
+
+<section class="Categories" id="Categories">
+
+    <h1 class="heading">product<span>categories</span></h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="veggies-removebg-preview.png" alt="veggies">
+        <h3>Veggies</h3>
+        <p>50% off</p>
+        <a href="#" class="btn">Shop</a>
+      </div>
+
+      <div class="box">
+        <img src="closed-notebook-office-supplies-removebg-preview.png" alt="">
+        <h3>Writing materials</h3>
+        <p>50% off</p>
+        <a href="#" class="btn">Shop</a>
+          
+      </div>
+
+      <div class="box">
+        <img src="front-view-wine-glasses-fresh-grapes-walnuts-yellow-cheese-wood-board-overturned-bottle-dark-background-removebg-preview.png" alt="">
+        <h3>Fine wines</h3>
+        <p>50% off</p>
+        <a href="#" class="btn">Shop</a>
+      </div>
+
+      <div class="box">
+        <img src="Chewing_gum-removebg-preview.png" alt="">
+        <h3>Gum</h3>
+        <p>50% off</p>
+        <a href="#" class="btn">Shop</a>
+      </div>
+  
+    </div>
+    
+</section>
+   
+   
+   
+<section class="footer">
+
+
+
+ <div class="box-container">
+
+ <div class="box">
+   <h3>Uwem stores <i class="fas fa-shopping-basket"></i></h3>
+   
+    <div class="share">
+       <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-github"></a>
+    </div>
+  </div>
+
+
+
+ <div class="box">
+  <h3>Contact us</h3>
+  <a href="#" class="links"><i class="fas fa-phone"></i> +234-907-459-033</a>
+  <a href="#" class="links"><i class="fas fa-envelope"></i>cyanjay69@gmail.com</a>
+  <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Abuja</a>
+ </div>
+
+ <div class="box">
+  <h3>Quick links</h3>
+   
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>Features</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+      <a href="#" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+      
+
+   </div>
+ 
+   <div class="credit"><i class="fas fa-copyright"><span>Codrjay</span></i></div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="C:\Users\stu\Desktop\IT\E commerce website\login.js"></script>  
+</body>
+</html>
