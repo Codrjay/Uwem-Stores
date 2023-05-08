@@ -51,7 +51,7 @@ var swiper = new Swiper(".Product-slider", {
     },
     centeredSlides: true,
     breakpoints: {
-      640: {
+      0: {
         slidesPerView: 1,
         
       },
